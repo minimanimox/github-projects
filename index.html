@@ -3,79 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[git]commands</title>
+    <link href="main.css" rel="stylesheet">
+    <title>Assignment</title>
 </head>
 <body>
     <header>
-        <h1>Basic Git commands</h1>
+        <h1>PAGE TITLE</h1>
     </header>
-    <main>
-        <!-- most of these commands from Atlassin-->
-        <p>Besides working around the file system and installing/uninstalling things, interacting with Git and online repos is probably the most common things you're going to use the terminal for as a developer.</p>
-        <p>Let's take a look at the most useful git commands out there </p>
-        
-        <section>
-            <h2>basic commands</h2>
-            <article>
-                <dl>
-                    <dt>Git add</dt>
-                    <dd>-Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.</dd>
-    
-                    <dt>Git commit</dt>
-                    <dd>-Takes the staged snapshot and commits it to the project history. Combined with git add, this defines the basic workflow for all Git users.</dd>
-    
-                    <dt>Git checkout</dt>
-                    <dd>-In addition to checking out old commits and old file revisions, git checkout is also the means to navigate existing branches. Combined with the basic Git commands, it’s a way to work on a particular line of development.</dd>
-    
-                    <dt>Git init</dt>
-                    <dd>-Initializes a new Git repository. If you want to place a project under revision control, this is the first command you need to learn.</dd>
-    
-                    <dt>Git log</dt>
-                    <dd>-Lets you explore the previous revisions of a project. It provides several formatting options for displaying committed snapshots.</dd>
-    
-                    <dt>Git status</dt>
-                    <dd>-Displays the state of the working directory and the staged snapshot. You’ll want to run this in conjunction with git add and git commit to see exactly what’s being included in the next snapshot.</dd>
-    
-                    <dt>Git push</dt>
-                    <dd>-Pushing is the opposite of fetching (with a few caveats). It lets you move a local branch to another repository, which serves as a convenient way to publish contributions. This is like svn commit, but it sends a series of commits instead of a single changeset.</dd>
-                </dl>
-            </article>
-        </section>
-        
-        <section>
-            <h2>git config settings</h2>
-            <article>
-                <dl>
-                    <dt>Git config --list</dt>
-                    <dd>-You can view all of your Git config settings by running the show Git config command in the terminal.</dd>
-
-                    <dt>Git config --global user.name "username"</dt>
-                    <dt>Git config --global user.email "name@gmail.com"</dt>
-                    <dd>-Set your name and email up </dd>
-                </dl>
-            </article>
-        </section>
-    </main>
-
-    <button arial-label = "cute button for nothing">cute</button>
-    <aside>
-        <h3>Additional comments</h3>
-        <p>You can see the "cute" button. Nothing happens even you click it several times.</p>
-    
-        <p>This page is created on <time datetime="2024-06-13">June 13th 2024.</time></p>
-    </aside>
 
     <nav>
-        <h1>References</h1>
-        <ul>
-            <li><a href = "https://www.freecodecamp.org/news/command-line-for-beginners/#gitcommands">freeCodeCamp</a></li>
-            <li><a href = "https://www.atlassian.com/git/glossary#commands">Atlassian</a></li>
-            <li><a href = "https://eehoeskrap.tistory.com/666">Tistory</a></li>
+        <ul class="aaa">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
     </nav>
-    <footer>
-        <p>&copy; 2024 My Webpage. | <a href="#">Privacy Policy</a></p>
-    </footer>
 
+    <main>
+        <article>
+            <div class ="box1">
+            <h2>Article One</h2>
+            <p>Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class = "container">
+                <div class ="box">image1</div>      
+                <div class ="box">image2</div>
+                <div class ="box">image3</div>     
+            </div>
+        </article>
+
+        <aside>
+            <div class ="title">
+                <h2>Projects</h2>
+            </div>
+            
+            <div class ="box2">
+            <ul class="bbb">
+                <li>January 2024</li>
+                <li>December 2023</li>
+                <li>November 2023</li>
+                <li>October 2023</li>
+                <li>September 2023</li>
+            </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class = "container2">
+        <p>&copy; 2024 My Webpage. | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
 </body>
 </html>
