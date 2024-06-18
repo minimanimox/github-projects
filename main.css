@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 900px;
     margin:auto;
@@ -11,8 +15,8 @@ a:link {
 a:visited {
     color: blue;
 }
+
 header {
-    box-sizing: border-box;
     padding: 1px;
     background-color: rgb(197, 196, 196);
     margin: 0;
@@ -20,7 +24,6 @@ header {
 }
 
 nav {
-    box-sizing: border-box;
     padding: 10px;
     padding-left: 0;
     background-color: rgb(232, 230, 230);
@@ -36,7 +39,6 @@ ul.aaa li {
 }
 
 main {
-    box-sizing: border-box;
     padding: 10px;
     background-color: rgb(82, 80, 80);
     display: inline-block;
@@ -47,7 +49,6 @@ h2 {
 }
 
 article {
-    box-sizing: border-box;
     width: 60%;
     margin: 10px;
     padding: 10px;
@@ -56,14 +57,12 @@ article {
 }
 
 .container {
-    box-sizing: border-box;
     width: 100%;
     height: 150px;
     line-height: 3.5;
 }
 
 .box1 {
-    box-sizing: border-box;
     width: auto;
     margin: 10px;
     padding: 10px;
@@ -73,7 +72,6 @@ article {
 
 .box {
     display: inline-block;
-    box-sizing: border-box;
     width: 28.4%;
     height: 130px;
     padding: 10px;
@@ -85,9 +83,7 @@ article {
     vertical-align: baseline;
 }
 
-
 aside {
-    box-sizing: border-box;
     width: 35.4%;
     height: 20%;
     margin: 10px;
@@ -97,9 +93,8 @@ aside {
 }
 
 .box2 {
-    box-sizing: border-box;
     width: auto;
-    height: 197px;
+    height: 184px;
     margin: 10px;
     padding: 10px;
     background-color: rgb(214, 213, 213);
@@ -107,7 +102,6 @@ aside {
 }
 
 .title {
-    box-sizing: border-box;
     width: auto;
     margin: 10px;
     padding: 10px;
@@ -115,9 +109,7 @@ aside {
     border: 5px solid rgb(188, 201, 90);
 }
 
-
 footer {
-    box-sizing: border-box;
     width: 100%;
     height: 100px;
     background-color: rgb(177, 179, 179);
